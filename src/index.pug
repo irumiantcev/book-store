@@ -1,0 +1,71 @@
+extends templates/layout-home.pug
+
+block meta
+  title Home
+  meta(name='description', content='Home page!')
+
+//- block append head
+//-   link(rel="stylesheet", href="some.css")
+//-   script(src='some.js')
+
+block nav
+  -var selected = 'blog';
+  +main-nav(selected)
+
+block content
+  p Растровые спрайты:
+    span.chrome(style="display: inline-block;")
+    span.github-logo(style="display: inline-block;")
+    span.placeholder(style="display: inline-block;")
+  hr
+  p Векторные спрайты
+    svg(width="24", height="24")
+      use(xlink:href="img/sprite-svg.svg#loupe")
+    svg(width="24", height="24")
+      use(xlink:href="img/sprite-svg.svg#rgb")
+    svg(width="24", height="24")
+      use(xlink:href="img/sprite-svg.svg#tea-cup")
+
+
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+  div(data-aos="fade-in") bla bla bla
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
+//- block append page-bottom
+//-   script(src='some.js')
