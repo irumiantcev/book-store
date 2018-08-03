@@ -34,6 +34,29 @@
   &__footer-wrapper {
     flex-shrink: 0;
   }
+
+  &__dog{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background:blue;
+    fill:#fff;
+    border-radius:50%;
+    transition:all 0.3s;
+
+    &:hover,
+    &:focus{
+      background:red;
+      fill:green;
+    }
+  }
+
 }
 
 *,
@@ -92,3 +115,5 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+

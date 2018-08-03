@@ -13,19 +13,23 @@ block nav
   +main-nav(selected)
 
 block content
-  p Растровые спрайты:
-    span.chrome(style="display: inline-block;")
-    span.github-logo(style="display: inline-block;")
-    span.placeholder(style="display: inline-block;")
-  hr
-  p Векторные спрайты
-    svg(width="24", height="24")
-      use(xlink:href="img/sprite-svg.svg#loupe")
-    svg(width="24", height="24")
-      use(xlink:href="img/sprite-svg.svg#rgb")
-    svg(width="24", height="24")
-      use(xlink:href="img/sprite-svg.svg#tea-cup")
 
+  a.page__dog(href="#")
+    svg(width="20", height="20")
+      use(xlink:href="img/sprite-svg.svg#icon-fb")  
+
+  a.page__dog(href="#")
+    svg(width="20", height="20")
+      use(xlink:href="img/sprite-svg.svg#icon-vk")
+
+
+  br
+  br
+  br
+
+  picture
+    source(type="image/webp", srcset="img/thumb-book-dao-fiziki.webp 1x, img/book-dao-fiziki.webp 2x")
+    img(src="img/thumb-book-dao-fiziki.jpg", alt="test", width="250")    
 
   p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!
   p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis at aliquid assumenda commodi odio, numquam odit velit? Amet ipsam fuga, reprehenderit officia repellendus facere minus eos quo deleniti. Maxime!

@@ -23,6 +23,7 @@ const ghPages = require('gulp-gh-pages');
 const newer = require('gulp-newer');
 const imagemin = require('gulp-imagemin');
 const pngquant = require('imagemin-pngquant');
+const webp = require('gulp-webp');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const cheerio = require('gulp-cheerio');
@@ -112,6 +113,8 @@ gulp.task('copy:img', function () {
     return gulp.src(images)
       // .pipe(newer(dirs.build + '/img')) // потенциально опасно, к сожалению
       .pipe(rename({dirname: ''}))
+      .pipe(gulp.dest(dirs.build + '/img'))
+      .pipe(webp())
       .pipe(gulp.dest(dirs.build + '/img'));
   }
   else {
